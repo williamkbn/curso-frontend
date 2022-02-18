@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/graficos_v2.css">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Bevan&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&amp;display=swap" rel="stylesheet">
+
+    <!-- Estilos Personalizados -->
+	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/modulo-07.css">
+</head>
+<body>
+    
+
+    <h1 class="cabecalho">Elementos gráficos</h1>
+
+    <div id="grafico-01">
+        <img src="./images/coffee-square_v2.jpg" alt="café">
+    </div>
+
+    <div id="grafico-02">
+
+    </div>
+
+    <div id="imagem-vetorial">
+        <img src="./images/coffee_v2.jpg" alt="café">
+    </div>
+
+    <div>
+        <canvas id="canvas"></canvas>
+    </div>
+   
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#00FF99";
+        ctx.fillRect(80, 80, 100, 80);
+    </script>
+
+</body>
+</html>

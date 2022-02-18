@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>HTML - William Kokubun</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- RESET -->
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Bevan&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&amp;display=swap" rel="stylesheet">
+
+	<!-- Estilos Personalizados -->
+	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/modulo-07.css">
+</head>
+
+<body>
+
+	<header>
+		<h2>Curso Front-end</h2>
+		<p>Aprenda do Zero ao Pro</p>
+		<div>
+			<h2>EBAC</h2>
+		</div>
+		<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+		<p>Aprenda de modo prático</p>
+	</header>
+
+	<section>
+
+		<nav>
+			<h3>Aulas</h3>
+			<ul class="navegacao">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="06-exercicio-final.html">Exercício - Formulários</a></li>
+				<li><a href="07-exercicio-final.html">Exercício - Tabelas</a></li>
+				<li><a><strong>Desafio</strong></a></li>
+			</ul>
+
+		</nav>
+
+		<article class="article-cafe">
+			<div class="texto-cafe">
+				<h3>Que tal um cafezinho?</h3>
+				<br>
+				<p>Obrigado por navegar até aqui!</p>
+				<br>
+				<p>Deixe no campo abaixo o seu contato e vamos nos encontrar para um café com muito código!</p>
+				<br>
+
+				<form class="form-cafe" method="post">
+
+					<div>
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+						<br>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div>
+						<input type="submit" >
+					</div>
+
+				</form>
+			</div>
+
+			<div class="imagem-cafe">
+
+				<picture>
+					<source media="(min-width: 280px)" srcset="./images/coffee-sm.jpg">
+					<source media="(min-width: 600px)" srcset="./images/coffee-square.jpg">
+					<img srcset="./images/coffee.jpg" alt="Café">
+				</picture>
+				
+			</div>
+		</article>
+
+	</section>
+
+	<footer>
+		<p>Desenvolvido por William</p>
+	</footer>
+
+</body>
+
+</html>

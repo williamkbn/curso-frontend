@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!--titulo da pagina-->
+		<title>HTML - Formulário Fale Conosco</title>
+		<!--metadados-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--fontes-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+		<!--estilos de css-->
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<!-- <link rel="stylesheet" type="text/css" href="./css/style-exercicio.css"> -->
+	    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+		<link rel="stylesheet" type="text/css" href="./css/modulo-07.css">	
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end</h2>
+			<p>Aprenda do Zero ao Pro</p>
+			<div><h2>EBAC</h2></div>
+			<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+			<p>Aprenda de modo prático</p>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+					<li><a href="index.html">Home</a></li>
+					<li><a><strong>Formulários</strong></a></li>
+					<li><a href="07-exercicio-final.html">Fundamentos do CSS</a></li>
+					<li><a href="08-exercicio-final.html">Desafio</a></li>
+				</ul>
+
+			</nav>
+
+			<article>
+
+				<h1>Contato</h1>
+				<p class="subtitulo">Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					
+					<div>
+						<p>
+							<label>Qual é o seu gênero de filme preferido?</label>
+							<input type="radio" name="linguagens" value="aventura"> Aventura
+							<input type="radio" name="linguagens" value="terror"> Terror
+							<input type="radio" name="linguagens" value="drama"> Drama
+							<input type="radio" name="linguagens" value="comedia"> Comédia
+							<input type="radio" name="linguagens" value="romance"> Romance
+							<input type="radio" name="linguagens" value="outros"> Outros
+							<input class="outros" type="text" name="linguagens" placeholder="Digite aqui">
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Por quais streamings você assiste filmes em casa?</label>
+							<input type="checkbox" name="linguagens" value="netflix"> Netflix
+							<input type="checkbox" name="linguagens" value="primeVideo"> Prime Video
+							<input type="checkbox" name="linguagens" value="telecine"> Telecine
+							<input type="checkbox" name="linguagens" value="hbomax"> HBOMax
+							<input type="checkbox" name="linguagens" value="disneyPlus"> Disney+
+							<input type="checkbox" name="linguagens" value="outros"> Outros
+						</p>
+					</div>
+
+					<div>
+						<label>Quantos filmes você assiste por mês?</label>
+						<select>
+							<option value="1" selected>1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="maisDe3">mais de 3</option>
+
+						</select>
+					</div>
+
+					<div>
+						<label for="mensagem">Qual é o seu filme preferido e por quê?</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+
+					<div>
+						<input type="submit" >
+					</div>
+					
+
+				</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por William</p>
+		</footer>
+		
+	</body>
+</html>
