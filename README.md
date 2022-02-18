@@ -27,3 +27,6 @@
  ## Commits
  Informação de alterção
  - após testado todo seu código
+
+ ## GitFlow
+ - Fluxo do Git
