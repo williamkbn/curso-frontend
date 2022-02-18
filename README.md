@@ -23,10 +23,13 @@
  ## Criar conta no GitHub
 
  ## Clonar o projeto
+ git clone https://github.com/williamkbn/curso-frontend.git
 
  ## Commits
  Informação de alterção
  - após testado todo seu código
+ - git add *
+ - git commit -m ""
 
  ## GitFlow
  - Fluxo do Git
