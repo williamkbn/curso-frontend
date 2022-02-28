@@ -61,6 +61,7 @@
  O repositório resolve os conflitos automaticamente
 
 
+
  ### Configura o GitFlow
  git flow init
  git flow features start {nome-da-feature}
