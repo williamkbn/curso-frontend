@@ -45,5 +45,9 @@
  - DOD Definition of Done: critérios de aceite
  - versionamento 1.0.00
 
+ git checkout -b dev (cria uma branch)
+ git checkout master (mudar de branch)
+ 
+ 
  ### Merge
  Mescla de branchs
