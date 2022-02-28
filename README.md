@@ -35,3 +35,15 @@
 
  ## GitFlow
  - Fluxo do Git
+
+
+ ### Branchs
+ São ramificações do código / versões paralelas
+
+ - main / master (vai pra produção, quando o projeto é publicado)
+ - develop 
+ - DOD Definition of Done: critérios de aceite
+ - versionamento 1.0.00
+
+ ### Merge
+ Mescla de branchs
