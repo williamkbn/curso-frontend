@@ -51,3 +51,16 @@
  
  ### Merge
  Mescla de branchs
+ Você pode precisar resolver conflitos manualmente
+
+ git merge main
+
+ ### Pull requests
+ Mescla de branches no repositório
+ Permite code review
+ O repositório resolve os conflitos automaticamente
+
+
+ ### Configura o GitFlow
+ git flow init
+ git flow features start {nome-da-feature}
