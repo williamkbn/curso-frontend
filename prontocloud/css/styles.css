@@ -154,8 +154,6 @@ footer small {
     overflow: hidden;
 }
 
-
-
 header, section, #tenho-interesse, footer {
         width: 100%;
     }
@@ -172,7 +170,19 @@ header, section, #tenho-interesse, footer {
 
     #tenho-interesse-article {
         padding-left: 0;
+    } 
+
+    #tenho-interesse-article * {
+        border: 0 !important;
     }
 
+    #tenho-interesse .container {
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+    }
     
 }
+
+
+
